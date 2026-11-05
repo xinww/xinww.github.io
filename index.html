@@ -1,92 +1,117 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<title>新梦想 XINMX.COM</title>
-
-<style>
-#svgBox{
-	width:100%;
-	margin:100px auto;
-}
-.text{
-	font-size: 64px;
-	font-weight: bold;
-	text-transform: uppercase;
-	fill: none;
-	stroke-width: 2px;
-	stroke-dasharray: 90 310;
-	animation: stroke 6s infinite linear;
-}
-.text-1{
-	stroke: #3498db;
-	text-shadow: 0 0 5px #3498db;
-	animation-delay: -1.5s;
-}
-.text-2{
-	stroke: #f39c12;
-	text-shadow: 0 0 5px #f39c12;
-	animation-delay: -3s;
-}
-.text-3{
-	stroke: #e74c3c;
-	text-shadow: 0 0 5px #e74c3c;
-	animation-delay: -4.5s;
-}
-.text-4{
-	stroke: #9b59b6;
-	text-shadow: 0 0 5px #9b59b6;
-	animation-delay: -6s;
-}
-
-@keyframes stroke {
-	100% {
-		stroke-dashoffset: -400;
-	}
-}
-.svgText{
-	width:600px;
-	margin:0 auto;
-}
-.svgText h3{
-	font-size:18px;
-	color:#333;
-	line-height:2;
-}
-.svgText p{
-	font-size:16px;
-	color:#888;
-	line-height:2;
-}
-.svgText p a,.svgText p a:hover{
-	color:#01a6fc;
-	font-weight:600;
-}
-.svgText ul li{
-	font-size:16px;
-	color:#888;
-	line-height:2;
-}
-</style>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="PrismNote 棱镜笔记官方下载与视频教程。本地优先的 Markdown 双链笔记与知识图谱，提供 Apple Silicon、Intel、旧系统兼容版以及 Windows、Linux 版本。">
+  <meta name="theme-color" content="#232326">
+  <title>PrismNote 棱镜笔记 | 官方下载与视频教程</title>
+  <link rel="canonical" href="./">
+  <link rel="icon" href="assets/app-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
 </head>
 <body>
-<body bgcolor="black">
-<div id="svgBox">
-	<svg width="100%" height="100">
-		<text text-anchor="middle" x="50%" y="70%" class="text text-1">
-			XINMX.COM
-		</text>
-		<text text-anchor="middle" x="50%" y="70%" class="text text-2">
-			XINMX.COM
-		</text>
-		<text text-anchor="middle" x="50%" y="70%" class="text text-3">
-			XINMX.COM
-		</text>
-		<text text-anchor="middle" x="50%" y="70%" class="text text-4">
-			XINMX.COM
-		</text>
-	</svg>
-</div>
+  <a class="skip-link" href="#tutorial">跳到视频教程</a>
+
+  <header class="site-header wrap">
+    <a class="brand" href="#top">
+      <img src="assets/app-icon.svg" width="40" height="40" alt="">
+      <span data-text="brandName">PrismNote</span><span class="brand-sub" data-text="brandSub">棱镜笔记</span>
+    </a>
+    <nav id="site-nav" aria-label="主导航">
+      <a href="#tutorial">视频教程</a><a href="#workspace">软件界面</a><a href="#features">功能特性</a><a href="#help">安装指南</a><a href="#contact">联系发布者 ↗</a>
+    </nav>
+  </header>
+
+  <!-- ===== 品牌动效带：融合 xinmx.com 的多层 SVG 描边流动文字 =====
+       四层 <text> 完全重叠，靠 stroke-dasharray + 错位的 animation-delay 形成流动光边；
+       文案在 data.js 的 text.brandWord / ribbonLead 中修改。 -->
+  <section class="brand-ribbon" aria-label="品牌动效">
+    <div class="svgBox">
+      <svg viewBox="0 0 1200 110" preserveAspectRatio="xMidYMid meet" role="img" aria-label="PrismNote 品牌字样">
+        <text class="text text-1" x="50%" y="72%" text-anchor="middle" data-text="brandWord">PRISMNOTE</text>
+        <text class="text text-2" x="50%" y="72%" text-anchor="middle" data-text="brandWord">PRISMNOTE</text>
+        <text class="text text-3" x="50%" y="72%" text-anchor="middle" data-text="brandWord">PRISMNOTE</text>
+        <text class="text text-4" x="50%" y="72%" text-anchor="middle" data-text="brandWord">PRISMNOTE</text>
+      </svg>
+    </div>
+    <p class="svgText-lead"><span data-text="ribbonLead">本地优先的 Markdown 双链笔记 · 把想法连成一张网</span> <a href="#features" data-text="ribbonLink">了解特性 ↗</a></p>
+  </section>
+
+  <main class="wrap" id="top">
+    <!-- ===== Hero：视频教程 + 下载面板 ===== -->
+    <section class="hero" id="tutorial" aria-labelledby="heading">
+      <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span><span data-text="eyebrow">本地优先 · 离线可用 · v2.4.1</span></p>
+      <h1 id="heading" data-text="heroTitle">把想法，连成一张网。</h1>
+      <p class="lead" data-text="heroLead">跟着真实软件演示，完成双向链接、知识图谱与每日笔记。</p>
+
+      <div class="hero-grid">
+        <figure class="tutorial">
+          <div class="tutorial-controls" id="tutorial-tabs" role="group" aria-label="选择教程"></div>
+          <div id="tutorial-start" class="tutorial-start">
+            <img id="tutorial-poster" src="assets/poster-start.svg" width="1600" height="900" alt="教程封面" decoding="async">
+            <button type="button" id="tutorial-play" aria-controls="tutorial-player"><span aria-hidden="true">▶</span> 播放完整教程</button>
+          </div>
+          <div id="tutorial-player" class="tutorial-player" hidden></div>
+          <figcaption>
+            <span id="tutorial-caption" aria-live="polite">快速上手与第一篇笔记 · 5 分 12 秒 · 中文解说与字幕</span>
+            <a id="tutorial-watch" href="assets/poster-start.svg" target="_blank" rel="noopener">单独观看 ↗</a>
+          </figcaption>
+          <p class="package-note" id="tutorial-note"></p>
+        </figure>
+
+        <aside class="download-panel" id="download" aria-labelledby="download-title">
+          <h2 id="download-title" data-text="downloadTitle">下载 PrismNote</h2>
+          <p class="release"><span data-text="releaseLine">桌面版 2.4.1 · build 2026.11.02 · 11/05 更新</span><span class="signed" data-text="releaseBadge">已签名并公证</span></p>
+          <div id="download-list"></div>
+          <p class="package-note" data-text="packageNote">打开 DMG 后将 PrismNote.app 拖入「应用程序」，再从应用程序打开使用和更新。</p>
+          <a class="quiet-link" href="#install">查看安装指南 →</a>
+          <div id="other-platforms"></div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===== 特性条 ===== -->
+    <div class="feature-strip" id="features" aria-label="产品特性"></div>
+
+    <!-- ===== 软件界面 ===== -->
+    <section class="workspace-section" id="workspace" aria-labelledby="workspace-title">
+      <h2 id="workspace-title" data-text="workspaceTitle">写作、连接、回看，都在一个窗口。</h2>
+      <p class="section-lead" data-text="workspaceLead">左边是笔记树，中间是编辑器，右边是关系图谱与反向链接。</p>
+      <div class="gallery-controls" id="gallery-controls" role="group" aria-label="选择软件截图"></div>
+      <figure class="workspace-shot">
+        <a id="gallery-link" href="assets/shot-workspace.svg" target="_blank" rel="noopener" aria-label="打开软件截图大图">
+          <img id="gallery-image" src="assets/shot-workspace.svg" width="1600" height="920" loading="lazy" alt="PrismNote 写作工作台：左侧笔记树、中间编辑器、右侧反向链接">
+        </a>
+        <figcaption><span id="gallery-caption" aria-live="polite">双栏编辑与反向链接同屏。</span><span>演示项目，点击查看大图</span></figcaption>
+      </figure>
+    </section>
+
+    <!-- ===== 安装与使用 ===== -->
+    <section class="help-section" id="help" aria-labelledby="help-title">
+      <div class="help-head">
+        <h2 id="help-title" data-text="helpTitle">安装与使用</h2>
+        <div class="faq-tools">
+          <button type="button" id="faq-expand">全部展开</button>
+          <button type="button" id="faq-collapse">全部收起</button>
+        </div>
+      </div>
+      <div id="faq-list"></div>
+    </section>
+  </main>
+
+  <footer class="wrap" id="contact">
+    <span>© <span id="year">2026</span> <span data-text="brandName">PrismNote</span> · <span data-text="footerNote">数据留在你的电脑里。</span></span>
+    <div>
+      <a href="#integrity">校验与许可证</a>
+      <a href="#help">帮助中心</a>
+      <a href="#top" data-text="publisher">联系发布者 ↗</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
 </body>
 </html>
