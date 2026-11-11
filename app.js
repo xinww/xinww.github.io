@@ -1,4 +1,4 @@
-/* PrismNote 落地页交互 —— 所有内容来自 data.js */
+/* www.xinmx.com 落地页交互 —— 所有内容来自 data.js */
 (function () {
   'use strict';
 
@@ -29,8 +29,8 @@
       var key = el.getAttribute('data-text');
       if (Object.prototype.hasOwnProperty.call(text, key)) el.textContent = text[key];
     });
-    var brand = text.brandName || 'PrismNote';
-    document.title = brand + ' | 官方下载与视频教程';
+    var brand = text.brandName || 'XINMX.COM';
+    document.title = text.documentTitle || (brand + ' · ' + (text.brandSub || '官方下载与视频教程'));
     var y = $('#year'); if (y) y.textContent = new Date().getFullYear();
   }
 
@@ -152,7 +152,7 @@
     } else {
       body = head + '<ul class="chapters">' + (t.chapters || []).map(function (c) {
         return '<li><span class="time">' + esc(c.time) + '</span><span class="chapter-title">' + esc(c.title) + '</span></li>';
-      }).join('') + '</ul><p class="player-note">演示站点未附带视频文件：在 data.js 的 tutorials[].src 填入 mp4 地址，这里就会直接播放。</p>';
+      }).join('') + '</ul><p class="player-note">本站暂未附带视频文件：在 data.js 的 tutorials[].src 填入 mp4 地址，这里就会直接播放。</p>';
     }
     player.innerHTML = body;
     player.hidden = false;
@@ -177,7 +177,7 @@
       $$('#gallery-controls button').forEach(function (b) { b.setAttribute('aria-pressed', String(b === btn)); });
       var img = $('#gallery-image');
       img.src = shot.image;
-      img.alt = 'PrismNote ' + shot.label + ' 界面';
+      img.alt = (SITE.text.brandSub || 'AT歌词识别') + ' ' + shot.label + ' 界面';
       $('#gallery-link').href = shot.image;
       $('#gallery-caption').textContent = shot.caption;
     });
@@ -271,7 +271,7 @@
       var dl = e.target.closest('a[data-placeholder]');
       if (dl) {
         e.preventDefault();
-        toast('演示站点：把 data.js 里的 href 换成真实安装包地址即可下载');
+        toast('安装包地址尚未配置：在 data.js 的 downloads[].href 填入真实地址即可下载');
       }
     });
   }

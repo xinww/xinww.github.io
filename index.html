@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="no-referrer">
-  <meta name="description" content="XINMX 这是自留地。本地优先的 Markdown 双链笔记与知识图谱，提供 Apple Silicon、Intel、旧系统兼容版以及 Windows、Linux 版本。">
-  <meta name="theme-color" content="#232326">
-  <title>XINMX 自留地 | 官方下载与视频教程</title>
-  <link rel="canonical" href="./">
+  <meta name="description" content="www.xinmx.com · AT歌词识别：拖入一首歌，四个离线 ASR 引擎任选，自动识别歌词并打上时间轴，导出 LRC / SRT / JSON。全程本机运行，音频零上传。">
+  <meta name="theme-color" content="#05080F">
+  <title>www.xinmx.com | AT歌词识别 · 离线歌词识别与自动打轴</title>
+  <link rel="canonical" href="https://www.xinmx.com/">
   <link rel="icon" href="assets/app-icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <script src="data.js" defer></script>
@@ -18,56 +18,71 @@
 
   <header class="site-header wrap">
     <a class="brand" href="#top">
-      <img src="assets/app-icon.svg" width="40" height="40" alt="">
-      <span data-text="brandName">XINMX</span><span class="brand-sub" data-text="brandSub">自留地</span>
+      <svg class="brand-mark" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="XM 霓虹徽标">
+        <defs>
+          <linearGradient id="xmTube" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#4CE0FF"/><stop offset="1" stop-color="#FF2E88"/>
+          </linearGradient>
+          <filter id="xmGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.2"/></filter>
+        </defs>
+        <path d="M10 2 H62 V54 L54 62 H2 V10 Z" fill="#0B1524" stroke="#00E5FF" stroke-opacity=".35" stroke-width="1"/>
+        <g fill="none" stroke="url(#xmTube)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity=".55" filter="url(#xmGlow)">
+          <path d="M10 16 L27 48 M27 16 L10 48"/><path d="M36 48 V16 L47 36 L58 16 V48"/>
+        </g>
+        <g fill="none" stroke="url(#xmTube)" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M10 16 L27 48 M27 16 L10 48"/><path d="M36 48 V16 L47 36 L58 16 V48"/>
+        </g>
+        <g fill="none" stroke="#FFFFFF" stroke-opacity=".72" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M10 16 L27 48 M27 16 L10 48"/><path d="M36 48 V16 L47 36 L58 16 V48"/>
+        </g>
+      </svg>
+      <span data-text="brandName">XINMX.COM</span><span class="brand-sub" data-text="brandSub">AT歌词识别</span>
     </a>
     <nav id="site-nav" aria-label="主导航">
       <a href="#tutorial">视频教程</a><a href="#workspace">软件界面</a><a href="#features">功能特性</a><a href="#help">安装指南</a><a href="#contact">联系发布者 ↗</a>
     </nav>
   </header>
 
-  <!-- ===== 品牌动效带：融合 xinmx.com 的多层 SVG 描边流动文字 =====
-       四层 <text> 完全重叠，靠 stroke-dasharray + 错位的 animation-delay 形成流动光边；
-       文案在 data.js 的 text.brandWord / ribbonLead 中修改。 -->
-  <section class="brand-ribbon" aria-label="品牌动效">
+  <!-- ===== 品牌动效带：四层 SVG 描边文字，stroke-dasharray + 错位延迟形成流动光边 ===== -->
+  <section class="brand-ribbon" aria-label="XINMX.COM 品牌动效">
     <div class="svgBox">
-      <svg viewBox="0 0 1200 110" preserveAspectRatio="xMidYMid meet" role="img" aria-label="XINMXCOM 品牌字样">
-        <text class="text text-1" x="50%" y="72%" text-anchor="middle" data-text="brandWord">XINMXCOM</text>
-        <text class="text text-2" x="50%" y="72%" text-anchor="middle" data-text="brandWord">XINMXCOM</text>
-        <text class="text text-3" x="50%" y="72%" text-anchor="middle" data-text="brandWord">XINMXCOM</text>
-        <text class="text text-4" x="50%" y="72%" text-anchor="middle" data-text="brandWord">XINMXCOM</text>
+      <svg viewBox="0 0 1200 110" preserveAspectRatio="xMidYMid meet" role="img" aria-label="XINMX.COM 品牌字样">
+        <text class="text text-1" x="50%" y="72%" text-anchor="middle" data-text="brandWord">XINMX.COM</text>
+        <text class="text text-2" x="50%" y="72%" text-anchor="middle" data-text="brandWord">XINMX.COM</text>
+        <text class="text text-3" x="50%" y="72%" text-anchor="middle" data-text="brandWord">XINMX.COM</text>
+        <text class="text text-4" x="50%" y="72%" text-anchor="middle" data-text="brandWord">XINMX.COM</text>
       </svg>
     </div>
-    <p class="svgText-lead"><span data-text="ribbonLead">本地优先的 Markdown 双链笔记 · 把想法连成一张网</span> <a href="#features" data-text="ribbonLink">了解特性 ↗</a></p>
+    <p class="svgText-lead"><span data-text="ribbonLead">拖入一首歌 · 四个离线引擎 · 自动打轴 · 同名 LRC 落盘</span> <a href="#features" data-text="ribbonLink">了解引擎 ↗</a></p>
   </section>
 
   <main class="wrap" id="top">
     <!-- ===== Hero：视频教程 + 下载面板 ===== -->
     <section class="hero" id="tutorial" aria-labelledby="heading">
-      <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span><span data-text="eyebrow">本地优先 · 离线可用 · v2.4.1</span></p>
-      <h1 id="heading" data-text="heroTitle">把想法，连成一张网。</h1>
-      <p class="lead" data-text="heroLead">跟着真实软件演示，完成双向链接、知识图谱与每日笔记。</p>
+      <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span><span data-text="eyebrow">AT歌词识别 1.1.0 · 四个离线 ASR 引擎 · 100% 本机</span></p>
+      <h1 id="heading" data-text="heroTitle">把一首歌，变成带时间轴的歌词。</h1>
+      <p class="lead" data-text="heroLead">拖入音频或整个文件夹，四个离线引擎任选其一；自动识别、起振点对齐、逐行打轴，识别完就在歌曲同目录写一份 LRC。</p>
 
       <div class="hero-grid">
         <figure class="tutorial">
           <div class="tutorial-controls" id="tutorial-tabs" role="group" aria-label="选择教程"></div>
           <div id="tutorial-start" class="tutorial-start">
-            <img id="tutorial-poster" src="assets/poster-start.svg" width="1600" height="900" alt="教程封面" decoding="async">
+            <img id="tutorial-poster" src="assets/poster-start.svg" width="1600" height="900" alt="AT歌词识别 教程封面" decoding="async">
             <button type="button" id="tutorial-play" aria-controls="tutorial-player"><span aria-hidden="true">▶</span> 播放完整教程</button>
           </div>
           <div id="tutorial-player" class="tutorial-player" hidden></div>
           <figcaption>
-            <span id="tutorial-caption" aria-live="polite">快速上手与第一篇笔记 · 5 分 12 秒 · 中文解说与字幕</span>
+            <span id="tutorial-caption" aria-live="polite">拖入歌曲与首次识别 · 5 分 12 秒 · 中文解说与字幕</span>
             <a id="tutorial-watch" href="assets/poster-start.svg" target="_blank" rel="noopener">单独观看 ↗</a>
           </figcaption>
           <p class="package-note" id="tutorial-note"></p>
         </figure>
 
         <aside class="download-panel" id="download" aria-labelledby="download-title">
-          <h2 id="download-title" data-text="downloadTitle">下载 XINMXCOM</h2>
-          <p class="release"><span data-text="releaseLine">桌面版 2.4.1 · build 2026.11.02 · 11/05 更新</span><span class="signed" data-text="releaseBadge">已签名并公证</span></p>
+          <h2 id="download-title" data-text="downloadTitle">下载 AT歌词识别</h2>
+          <p class="release"><span data-text="releaseLine">macOS 版 1.1.0 · 2026-11-12 更新 · 原生 AppKit 单窗口</span><span class="signed" data-text="releaseBadge">全程离线 · 零上传</span></p>
           <div id="download-list"></div>
-          <p class="package-note" data-text="packageNote">打开 DMG 后将 XINMXCOM.app 拖入「应用程序」，再从应用程序打开使用和更新。</p>
+          <p class="package-note" data-text="packageNote">打开 DMG 后将 AT歌词识别.app 拖入「应用程序」。首次启动会自动拉起本机服务（仅监听 127.0.0.1:8898），音频与模型都不出本机。</p>
           <a class="quiet-link" href="#install">查看安装指南 →</a>
           <div id="other-platforms"></div>
         </aside>
@@ -79,14 +94,14 @@
 
     <!-- ===== 软件界面 ===== -->
     <section class="workspace-section" id="workspace" aria-labelledby="workspace-title">
-      <h2 id="workspace-title" data-text="workspaceTitle">写作、连接、回看，都在一个窗口。</h2>
-      <p class="section-lead" data-text="workspaceLead">左边是笔记树，中间是编辑器，右边是关系图谱与反向链接。</p>
+      <h2 id="workspace-title" data-text="workspaceTitle">识别、校对、导出，都在一个窗口。</h2>
+      <p class="section-lead" data-text="workspaceLead">左栏是批量队列，右栏是播放条、可编辑时间轴与导出工具条。</p>
       <div class="gallery-controls" id="gallery-controls" role="group" aria-label="选择软件截图"></div>
       <figure class="workspace-shot">
         <a id="gallery-link" href="assets/shot-workspace.svg" target="_blank" rel="noopener" aria-label="打开软件截图大图">
-          <img id="gallery-image" src="assets/shot-workspace.svg" width="1600" height="920" loading="lazy" alt="PrismNote 写作工作台：左侧笔记树、中间编辑器、右侧反向链接">
+          <img id="gallery-image" src="assets/shot-workspace.svg" width="1600" height="920" loading="lazy" alt="AT歌词识别 识别工作台：四引擎切换条、批量队列与结果卡">
         </a>
-        <figcaption><span id="gallery-caption" aria-live="polite">双栏编辑与反向链接同屏。</span><span>演示项目，点击查看大图</span></figcaption>
+        <figcaption><span id="gallery-caption" aria-live="polite">四引擎切换条、批量队列与结果卡同屏。</span><span>界面示意图，点击查看大图</span></figcaption>
       </figure>
     </section>
 
@@ -104,10 +119,10 @@
   </main>
 
   <footer class="wrap" id="contact">
-    <span>© <span id="year">2026</span> <span data-text="brandName">PrismNote</span> · <span data-text="footerNote">数据留在你的电脑里。</span></span>
+    <span>© <span id="year">2026</span> <span data-text="brandName">XINMX.COM</span> · <span data-text="footerNote">音频不出本机 · 服务只监听 127.0.0.1</span></span>
     <div>
       <a href="#integrity">校验与许可证</a>
-      <a href="#help">帮助中心</a>
+      <a href="#help">安装指南</a>
       <a href="#top" data-text="publisher">联系发布者 ↗</a>
     </div>
   </footer>

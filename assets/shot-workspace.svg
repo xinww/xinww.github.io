@@ -1,114 +1,169 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 920" width="1600" height="920" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif">
-<rect x="0" y="0" width="1600" height="920" rx="0" fill="#17171b"/>
-<rect x="0" y="0" width="1600" height="44" rx="0" fill="#202026"/>
-<line x1="0" y1="44" x2="1600" y2="44" stroke="#34343e" stroke-width="1"/>
-<circle cx="26" cy="22" r="6" fill="#d97b72" opacity="0.85"/>
-<circle cx="46" cy="22" r="6" fill="#d9b46a" opacity="0.85"/>
-<circle cx="66" cy="22" r="6" fill="#7bbf95" opacity="0.85"/>
-<text x="800" y="28" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="400" fill="#9a9aa8" text-anchor="middle">PrismNote — 双向链接实践</text>
-<rect x="1490" y="15" width="18" height="14" rx="4" fill="#2f2f38"/>
-<rect x="1520" y="15" width="18" height="14" rx="4" fill="#2f2f38"/>
-<rect x="1550" y="15" width="18" height="14" rx="4" fill="#2f2f38"/>
-<rect x="0" y="44" width="248" height="876" rx="0" fill="#1b1b21"/>
-<line x1="248" y1="44" x2="248" y2="920" stroke="#33333d" stroke-width="1"/>
-<rect x="16" y="62" width="216" height="36" rx="7" fill="#26262e" stroke="#383842" stroke-width="1"/>
-<circle cx="34" cy="80" r="5" fill="none" stroke="#9a9aa8" stroke-width="1.5"/>
-<line x1="38" y1="84" x2="43" y2="89" stroke="#9a9aa8" stroke-width="1.5"/>
-<text x="52" y="86" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="400" fill="#9a9aa8" text-anchor="start">搜索笔记</text>
-<rect x="190" y="70" width="32" height="20" rx="5" fill="#30303a"/>
-<text x="206" y="84" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="10" font-weight="400" fill="#9a9aa8" text-anchor="middle">⌘K</text>
-<text x="20" y="132" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" font-weight="600" fill="#7c7c8a" text-anchor="start" letter-spacing="1.2">笔记库</text>
-<rect x="24" y="149" width="11" height="11" rx="3" fill="#4a4a58" opacity=".8"/>
-<text x="46" y="161" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="400" fill="#a6a6b3" text-anchor="start">每日笔记</text>
-<rect x="24" y="185" width="11" height="11" rx="3" fill="#4a4a58" opacity=".8"/>
-<text x="46" y="197" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="400" fill="#a6a6b3" text-anchor="start">收件箱</text>
-<rect x="10" y="210" width="228" height="32" rx="6" fill="#30405e"/>
-<rect x="10" y="210" width="3" height="32" rx="2" fill="#91c8f0"/>
-<rect x="24" y="221" width="11" height="11" rx="3" fill="#91c8f0" opacity=".8"/>
-<text x="46" y="233" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="600" fill="#e8e8ee" text-anchor="start">项目 / 落地页改版</text>
-<rect x="24" y="257" width="11" height="11" rx="3" fill="#4a4a58" opacity=".8"/>
-<text x="46" y="269" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="400" fill="#a6a6b3" text-anchor="start">双向链接实践</text>
-<rect x="24" y="293" width="11" height="11" rx="3" fill="#4a4a58" opacity=".8"/>
-<text x="46" y="305" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="400" fill="#a6a6b3" text-anchor="start">阅读清单</text>
-<rect x="24" y="329" width="11" height="11" rx="3" fill="#4a4a58" opacity=".8"/>
-<text x="46" y="341" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="400" fill="#a6a6b3" text-anchor="start">灵感碎片</text>
-<text x="20" y="398" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" font-weight="600" fill="#7c7c8a" text-anchor="start" letter-spacing="1.2">最近</text>
-<rect x="24" y="415" width="10" height="10" rx="3" fill="#3f3f4c"/>
-<text x="46" y="427" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="12.5" font-weight="400" fill="#9a9aa8" text-anchor="start">2026-11-05</text>
-<rect x="24" y="447" width="10" height="10" rx="3" fill="#3f3f4c"/>
-<text x="46" y="459" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="12.5" font-weight="400" fill="#9a9aa8" text-anchor="start">2026-11-04</text>
-<rect x="24" y="479" width="10" height="10" rx="3" fill="#3f3f4c"/>
-<text x="46" y="491" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="12.5" font-weight="400" fill="#9a9aa8" text-anchor="start">知识图谱笔记</text>
-<line x1="0" y1="856" x2="248" y2="856" stroke="#33333d" stroke-width="1"/>
-<circle cx="30" cy="882" r="8" fill="#3f3f4c"/>
-<text x="48" y="887" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" font-weight="400" fill="#9a9aa8" text-anchor="start">本地笔记库 · 已同步</text>
-<rect x="0" y="890" width="1600" height="30" rx="0" fill="#202026"/>
-<line x1="0" y1="890" x2="1600" y2="890" stroke="#33333d" stroke-width="1"/>
-<text x="20" y="910" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" font-weight="400" fill="#9a9aa8" text-anchor="start">PrismNote</text>
-<text x="264" y="910" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" font-weight="400" fill="#9a9aa8" text-anchor="start">已保存 · 1,284 字 · 12 个链接</text>
-<text x="1580" y="910" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" font-weight="400" fill="#9a9aa8" text-anchor="end">Markdown  ·  UTF-8</text>
-<rect x="248" y="44" width="1032" height="846" rx="0" fill="#1f1f25"/>
-<text x="304" y="104" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" font-weight="400" fill="#9a9aa8" text-anchor="start">笔记库  /  项目  /  双向链接实践</text>
-<text x="304" y="174" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="38" font-weight="700" fill="#e8e8ee" text-anchor="start" letter-spacing="-1">双向链接实践</text>
-<text x="304" y="210" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="400" fill="#9a9aa8" text-anchor="start">更新于 11 月 5 日 · 1,284 字 · 12 个链接</text>
-<line x1="304" y1="236" x2="1224" y2="236" stroke="#34343e" stroke-width="1"/>
-<text x="304" y="284" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="18" font-weight="600" fill="#e8e8ee" text-anchor="start">把笔记连起来，而不是把它们堆起来。</text>
-<rect x="304" y="314" width="824" height="9" rx="4" fill="#3c3c48"/>
-<rect x="304" y="344" width="780" height="9" rx="4" fill="#3c3c48"/>
-<rect x="304" y="374" width="846" height="9" rx="4" fill="#3c3c48"/>
-<rect x="304" y="404" width="690" height="9" rx="4" fill="#3c3c48"/>
-<rect x="304" y="434" width="226" height="9" rx="4" fill="#3c3c48"/>
-<rect x="538" y="426" width="132" height="24" rx="6" fill="#33405e"/>
-<text x="548" y="443" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="400" fill="#91c8f0" text-anchor="start">[[知识图谱]]</text>
-<rect x="678" y="434" width="190" height="9" rx="4" fill="#3c3c48"/>
-<rect x="876" y="426" width="106" height="24" rx="6" fill="#3c3358"/>
-<text x="886" y="443" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="400" fill="#b3a2f2" text-anchor="start">[[每日笔记]]</text>
-<rect x="304" y="464" width="742" height="9" rx="4" fill="#3c3c48"/>
-<text x="304" y="534" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="22" font-weight="700" fill="#e8e8ee" text-anchor="start">为什么用它</text>
-<rect x="304" y="560" width="4" height="68" rx="2" fill="#7ec9a2"/>
-<text x="324" y="588" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" font-weight="400" fill="#c2c2cd" text-anchor="start">链接是双向的：写下一处引用，另一端自动生成反向链接。</text>
-<text x="324" y="616" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" font-weight="400" fill="#c2c2cd" text-anchor="start">所有内容都是本地 Markdown 文件，随时可以带走。</text>
-<rect x="304" y="656" width="812" height="9" rx="4" fill="#3c3c48"/>
-<rect x="304" y="686" width="640" height="9" rx="4" fill="#3c3c48"/>
-<rect x="304" y="738" width="132" height="28" rx="14" fill="#2f2f3a"/>
-<text x="370" y="757" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" font-weight="400" fill="#9a9aa8" text-anchor="middle"># 本地优先</text>
-<rect x="448" y="738" width="108" height="28" rx="14" fill="#2f2f3a"/>
-<text x="502" y="757" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" font-weight="400" fill="#9a9aa8" text-anchor="middle"># 双链</text>
-<rect x="1280" y="44" width="320" height="846" rx="0" fill="#1b1b21"/>
-<line x1="1280" y1="44" x2="1280" y2="890" stroke="#33333d" stroke-width="1"/>
-<text x="1304" y="84" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" font-weight="600" fill="#e8e8ee" text-anchor="start">反向链接</text>
-<rect x="1526" y="68" width="38" height="22" rx="11" fill="#2e2e38"/>
-<text x="1545" y="83" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" font-weight="400" fill="#9a9aa8" text-anchor="middle">12</text>
-<line x1="1304" y1="100" x2="1576" y2="100" stroke="#33333d" stroke-width="1"/>
-<rect x="1302" y="122" width="276" height="104" rx="9" fill="#24242c" stroke="#34343f" stroke-width="1"/>
-<rect x="1318" y="142" width="12" height="12" rx="3" fill="#91c8f0"/>
-<text x="1338" y="154" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" font-weight="600" fill="#e8e8ee" text-anchor="start">知识图谱视图</text>
-<text x="1318" y="182" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" font-weight="400" fill="#9a9aa8" text-anchor="start">把散落的笔记看成一张网</text>
-<rect x="1318" y="198" width="176" height="7" rx="4" fill="#3a3a46"/>
-<rect x="1494" y="192" width="66" height="20" rx="10" fill="#2f3a52"/>
-<text x="1527" y="206" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="10" font-weight="400" fill="#91c8f0" text-anchor="middle">3 处引用</text>
-<rect x="1302" y="244" width="276" height="104" rx="9" fill="#24242c" stroke="#34343f" stroke-width="1"/>
-<rect x="1318" y="264" width="12" height="12" rx="3" fill="#b3a2f2"/>
-<text x="1338" y="276" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" font-weight="600" fill="#e8e8ee" text-anchor="start">每日笔记 / 11-04</text>
-<text x="1318" y="304" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" font-weight="400" fill="#9a9aa8" text-anchor="start">今天整理的项目结构</text>
-<rect x="1318" y="320" width="176" height="7" rx="4" fill="#3a3a46"/>
-<rect x="1494" y="314" width="66" height="20" rx="10" fill="#2f3a52"/>
-<text x="1527" y="328" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="10" font-weight="400" fill="#91c8f0" text-anchor="middle">2 处引用</text>
-<rect x="1302" y="366" width="276" height="104" rx="9" fill="#24242c" stroke="#34343f" stroke-width="1"/>
-<rect x="1318" y="386" width="12" height="12" rx="3" fill="#7ec9a2"/>
-<text x="1338" y="398" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" font-weight="600" fill="#e8e8ee" text-anchor="start">阅读清单</text>
-<text x="1318" y="426" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" font-weight="400" fill="#9a9aa8" text-anchor="start">关于链接思维的摘录</text>
-<rect x="1318" y="442" width="176" height="7" rx="4" fill="#3a3a46"/>
-<rect x="1494" y="436" width="66" height="20" rx="10" fill="#2f3a52"/>
-<text x="1527" y="450" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="10" font-weight="400" fill="#91c8f0" text-anchor="middle">1 处引用</text>
-<line x1="1304" y1="500" x2="1576" y2="500" stroke="#33333d" stroke-width="1"/>
-<text x="1304" y="534" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" font-weight="600" fill="#e8e8ee" text-anchor="start">本页大纲</text>
-<rect x="1306" y="564" width="6" height="6" rx="3" fill="#4a4a58"/>
-<text x="1324" y="573" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="400" fill="#a6a6b3" text-anchor="start">把笔记连起来</text>
-<rect x="1306" y="602" width="6" height="6" rx="3" fill="#4a4a58"/>
-<text x="1324" y="611" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="400" fill="#a6a6b3" text-anchor="start">为什么用它</text>
-<rect x="1306" y="640" width="6" height="6" rx="3" fill="#4a4a58"/>
-<text x="1324" y="649" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="400" fill="#a6a6b3" text-anchor="start">引用与标签</text>
-<rect x="1306" y="678" width="6" height="6" rx="3" fill="#4a4a58"/>
-<text x="1324" y="687" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="400" fill="#a6a6b3" text-anchor="start">下一步</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 920" width="1600" height="920" role="img">
+<defs>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0 H0 V32" fill="none" stroke="#00E5FF" stroke-opacity=".035"/></pattern>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" fill-opacity=".14"/></pattern>
+  <linearGradient id="tube" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4CE0FF"/><stop offset="1" stop-color="#FF2E88"/></linearGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#FF2E88"/></linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.2"/></filter>
+</defs>
+<rect width="1600" height="920" fill="#05080F"/>
+<rect width="1600" height="920" fill="url(#grid)"/>
+<rect width="1600" height="920" fill="url(#scan)"/>
+<path d="M38 28 H1572 V882 L1562 892 H28 V38 Z" fill="#0B1220" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.28"/>
+<rect x="28" y="28" width="1544" height="62" rx="0" fill="#111C2F" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.18"/>
+<circle cx="60" cy="59" r="6" fill="#FF2E88"/>
+<circle cx="86" cy="59" r="6" fill="#FFB347"/>
+<circle cx="112" cy="59" r="6" fill="#B8FF3C"/>
+<text x="180" y="68" font-size="20" fill="#EAF7FF" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">AT歌词识别 1.1.0</text>
+<text x="1552" y="68" font-size="15" fill="#B8FF3C" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" text-anchor="end">100% 离线 · 零上传</text>
+<text x="60" y="132" font-size="14" fill="#FF2E88" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="1">识别引擎 / ENGINE SELECT</text>
+<path d="M68 150 H418 V216 L410 224 H60 V158 Z" fill="#111C2F" stroke="#4F6B87" stroke-width="1" stroke-opacity="0.2"/>
+<text x="80" y="180" font-size="17" fill="#7E9AB5" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">Qwen3-ASR</text>
+<text x="80" y="206" font-size="13" fill="#7E9AB5" font-weight="400" font-family="'PingFang SC','Microsoft YaHei',sans-serif">52 语言 · 最强</text>
+<path d="M442 150 H792 V216 L784 224 H434 V158 Z" fill="#111C2F" stroke="#4F6B87" stroke-width="1" stroke-opacity="0.2"/>
+<text x="454" y="180" font-size="17" fill="#7E9AB5" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">Fun-ASR-Nano</text>
+<text x="454" y="206" font-size="13" fill="#7E9AB5" font-weight="400" font-family="'PingFang SC','Microsoft YaHei',sans-serif">长句稳定</text>
+<path d="M816 150 H1166 V216 L1158 224 H808 V158 Z" fill="#05080F" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.85"/>
+<rect x="808" y="150" width="4" height="74" rx="0" fill="#00E5FF" stroke="#00E5FF" stroke-width="1" stroke-opacity="0"/>
+<text x="828" y="180" font-size="17" fill="#00E5FF" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">SenseVoiceSmall</text>
+<text x="828" y="206" font-size="13" fill="#7E9AB5" font-weight="400" font-family="'PingFang SC','Microsoft YaHei',sans-serif">最快 · 默认</text>
+<path d="M1190 150 H1540 V216 L1532 224 H1182 V158 Z" fill="#111C2F" stroke="#4F6B87" stroke-width="1" stroke-opacity="0.2"/>
+<text x="1202" y="180" font-size="17" fill="#7E9AB5" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">Paraformer-Large</text>
+<text x="1202" y="206" font-size="13" fill="#7E9AB5" font-weight="400" font-family="'PingFang SC','Microsoft YaHei',sans-serif">中文高精度</text>
+<path d="M70 252 H500 V802 L490 812 H60 V262 Z" fill="#111C2F" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.25"/>
+<text x="84" y="292" font-size="15" fill="#00E5FF" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="1">识别队列 / QUEUE</text>
+<line x1="84" y1="308" x2="476" y2="308" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.18"/>
+<rect x="84" y="330" width="392" height="78" rx="0" fill="#05080F" stroke="#B8FF3C" stroke-width="1" stroke-opacity="0.45"/>
+<text x="102" y="362" font-size="17" fill="#EAF7FF" font-weight="500" font-family="'PingFang SC','Microsoft YaHei',sans-serif">折一只纸月亮.mp3</text>
+<text x="102" y="390" font-size="13" fill="#7E9AB5" font-weight="400" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">19s · 44.1kHz</text>
+<text x="458" y="390" font-size="13" fill="#B8FF3C" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" text-anchor="end">已识别</text>
+<rect x="84" y="422" width="392" height="78" rx="0" fill="#05080F" stroke="#B8FF3C" stroke-width="1" stroke-opacity="0.45"/>
+<text x="102" y="454" font-size="17" fill="#EAF7FF" font-weight="500" font-family="'PingFang SC','Microsoft YaHei',sans-serif">旧信件.mp3</text>
+<text x="102" y="482" font-size="13" fill="#7E9AB5" font-weight="400" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">19s · 44.1kHz</text>
+<text x="458" y="482" font-size="13" fill="#B8FF3C" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" text-anchor="end">已识别</text>
+<rect x="84" y="514" width="392" height="78" rx="0" fill="#05080F" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.45"/>
+<text x="102" y="546" font-size="17" fill="#EAF7FF" font-weight="500" font-family="'PingFang SC','Microsoft YaHei',sans-serif">远方有灯.flac</text>
+<text x="102" y="574" font-size="13" fill="#7E9AB5" font-weight="400" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">19s · 44.1kHz</text>
+<text x="458" y="574" font-size="13" fill="#00E5FF" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" text-anchor="end">识别中</text>
+<rect x="84" y="606" width="392" height="78" rx="0" fill="#05080F" stroke="#4F6B87" stroke-width="1" stroke-opacity="0.45"/>
+<text x="102" y="638" font-size="17" fill="#EAF7FF" font-weight="500" font-family="'PingFang SC','Microsoft YaHei',sans-serif">往那边走.m4a</text>
+<text x="102" y="666" font-size="13" fill="#7E9AB5" font-weight="400" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">19s · 44.1kHz</text>
+<text x="458" y="666" font-size="13" fill="#7E9AB5" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" text-anchor="end">待识别</text>
+<rect x="84" y="698" width="392" height="78" rx="0" fill="#05080F" stroke="#4F6B87" stroke-width="1" stroke-opacity="0.45"/>
+<text x="102" y="730" font-size="17" fill="#EAF7FF" font-weight="500" font-family="'PingFang SC','Microsoft YaHei',sans-serif">潮汐.wav</text>
+<text x="102" y="758" font-size="13" fill="#7E9AB5" font-weight="400" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">19s · 44.1kHz</text>
+<text x="458" y="758" font-size="13" fill="#7E9AB5" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" text-anchor="end">待识别</text>
+<text x="84" y="790" font-size="13" fill="#7E9AB5" font-weight="400" font-family="'PingFang SC','Microsoft YaHei',sans-serif">拖入音频或文件夹 · 按文件名顺序逐首</text>
+<path d="M534 252 H1540 V802 L1530 812 H524 V262 Z" fill="#111C2F" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.25"/>
+<text x="548" y="292" font-size="20" fill="#EAF7FF" font-weight="600" font-family="'PingFang SC','Microsoft YaHei',sans-serif">折一只纸月亮.mp3</text>
+<text x="1516" y="292" font-size="14" fill="#00E5FF" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" text-anchor="end">SenseVoiceSmall · 2.05s</text>
+<rect x="548.0" y="322.5" width="10.0" height="87.0" fill="#FF2E88" opacity=".55"/>
+<rect x="559.5" y="329.0" width="10.0" height="74.0" fill="#00E5FF" opacity=".55"/>
+<rect x="571.0" y="331.9" width="10.0" height="68.1" fill="#00E5FF" opacity=".55"/>
+<rect x="582.6" y="329.3" width="10.0" height="73.3" fill="#00E5FF" opacity=".55"/>
+<rect x="594.1" y="330.0" width="10.0" height="72.0" fill="#00E5FF" opacity=".55"/>
+<rect x="605.6" y="339.4" width="10.0" height="53.2" fill="#00E5FF" opacity=".55"/>
+<rect x="617.1" y="350.3" width="10.0" height="31.3" fill="#00E5FF" opacity=".55"/>
+<rect x="628.7" y="352.4" width="10.0" height="27.2" fill="#00E5FF" opacity=".55"/>
+<rect x="640.2" y="346.5" width="10.0" height="39.1" fill="#00E5FF" opacity=".55"/>
+<rect x="651.7" y="342.9" width="10.0" height="46.3" fill="#00E5FF" opacity=".55"/>
+<rect x="663.2" y="346.1" width="10.0" height="39.7" fill="#00E5FF" opacity=".55"/>
+<rect x="674.8" y="348.9" width="10.0" height="34.2" fill="#00E5FF" opacity=".55"/>
+<rect x="686.3" y="343.7" width="10.0" height="44.6" fill="#00E5FF" opacity=".55"/>
+<rect x="697.8" y="335.4" width="10.0" height="61.3" fill="#00E5FF" opacity=".55"/>
+<rect x="709.3" y="334.7" width="10.0" height="62.5" fill="#00E5FF" opacity=".55"/>
+<rect x="720.9" y="343.3" width="10.0" height="45.3" fill="#00E5FF" opacity=".55"/>
+<rect x="732.4" y="351.3" width="10.0" height="29.3" fill="#00E5FF" opacity=".55"/>
+<rect x="743.9" y="351.7" width="10.0" height="28.6" fill="#FF2E88" opacity=".55"/>
+<rect x="755.4" y="349.8" width="10.0" height="32.4" fill="#00E5FF" opacity=".55"/>
+<rect x="767.0" y="354.3" width="10.0" height="23.4" fill="#00E5FF" opacity=".55"/>
+<rect x="778.5" y="363.0" width="10.0" height="5.9" fill="#00E5FF" opacity=".55"/>
+<rect x="790.0" y="364.0" width="10.0" height="4.0" fill="#00E5FF" opacity=".55"/>
+<rect x="801.5" y="356.8" width="10.0" height="18.3" fill="#00E5FF" opacity=".55"/>
+<rect x="813.0" y="346.6" width="10.0" height="38.7" fill="#00E5FF" opacity=".55"/>
+<rect x="824.6" y="343.6" width="10.0" height="44.9" fill="#00E5FF" opacity=".55"/>
+<rect x="836.1" y="344.6" width="10.0" height="42.7" fill="#00E5FF" opacity=".55"/>
+<rect x="847.6" y="340.5" width="10.0" height="51.0" fill="#00E5FF" opacity=".55"/>
+<rect x="859.1" y="330.7" width="10.0" height="70.6" fill="#00E5FF" opacity=".55"/>
+<rect x="870.7" y="325.3" width="10.0" height="81.4" fill="#00E5FF" opacity=".55"/>
+<rect x="882.2" y="330.5" width="10.0" height="71.0" fill="#00E5FF" opacity=".55"/>
+<rect x="893.7" y="339.4" width="10.0" height="53.1" fill="#00E5FF" opacity=".55"/>
+<rect x="905.2" y="341.8" width="10.0" height="48.5" fill="#00E5FF" opacity=".55"/>
+<rect x="916.8" y="338.0" width="10.0" height="55.9" fill="#00E5FF" opacity=".55"/>
+<rect x="928.3" y="337.7" width="10.0" height="56.5" fill="#00E5FF" opacity=".55"/>
+<rect x="939.8" y="344.1" width="10.0" height="43.8" fill="#FF2E88" opacity=".55"/>
+<rect x="951.3" y="348.5" width="10.0" height="34.9" fill="#00E5FF" opacity=".55"/>
+<rect x="962.9" y="343.2" width="10.0" height="45.7" fill="#00E5FF" opacity=".55"/>
+<rect x="974.4" y="332.7" width="10.0" height="66.6" fill="#00E5FF" opacity=".55"/>
+<rect x="985.9" y="328.4" width="10.0" height="75.3" fill="#00E5FF" opacity=".55"/>
+<rect x="997.4" y="332.2" width="10.0" height="67.6" fill="#00E5FF" opacity=".55"/>
+<rect x="1009.0" y="335.3" width="10.0" height="61.3" fill="#00E5FF" opacity=".95"/>
+<rect x="1020.5" y="332.0" width="10.0" height="67.9" fill="#00E5FF" opacity=".95"/>
+<rect x="1032.0" y="328.9" width="10.0" height="74.2" fill="#00E5FF" opacity=".95"/>
+<rect x="1043.5" y="335.0" width="10.0" height="62.0" fill="#00E5FF" opacity=".55"/>
+<rect x="1055.0" y="347.9" width="10.0" height="36.2" fill="#00E5FF" opacity=".55"/>
+<rect x="1066.6" y="356.3" width="10.0" height="19.4" fill="#00E5FF" opacity=".55"/>
+<rect x="1078.1" y="355.5" width="10.0" height="21.0" fill="#00E5FF" opacity=".55"/>
+<rect x="1089.6" y="353.1" width="10.0" height="25.9" fill="#00E5FF" opacity=".55"/>
+<rect x="1101.1" y="356.7" width="10.0" height="18.7" fill="#00E5FF" opacity=".55"/>
+<rect x="1112.7" y="362.1" width="10.0" height="7.8" fill="#00E5FF" opacity=".55"/>
+<rect x="1124.2" y="359.5" width="10.0" height="13.0" fill="#00E5FF" opacity=".55"/>
+<rect x="1135.7" y="348.6" width="10.0" height="34.7" fill="#FF2E88" opacity=".55"/>
+<rect x="1147.2" y="340.3" width="10.0" height="51.5" fill="#00E5FF" opacity=".55"/>
+<rect x="1158.8" y="341.3" width="10.0" height="49.4" fill="#00E5FF" opacity=".55"/>
+<rect x="1170.3" y="345.8" width="10.0" height="40.4" fill="#00E5FF" opacity=".55"/>
+<rect x="1181.8" y="344.6" width="10.0" height="42.9" fill="#00E5FF" opacity=".55"/>
+<rect x="1193.3" y="339.2" width="10.0" height="53.7" fill="#00E5FF" opacity=".55"/>
+<rect x="1204.9" y="339.4" width="10.0" height="53.2" fill="#00E5FF" opacity=".55"/>
+<rect x="1216.4" y="348.0" width="10.0" height="35.9" fill="#00E5FF" opacity=".55"/>
+<rect x="1227.9" y="355.7" width="10.0" height="20.7" fill="#00E5FF" opacity=".55"/>
+<rect x="1239.4" y="353.5" width="10.0" height="24.9" fill="#00E5FF" opacity=".55"/>
+<rect x="1251.0" y="345.5" width="10.0" height="40.9" fill="#00E5FF" opacity=".55"/>
+<rect x="1262.5" y="341.9" width="10.0" height="48.3" fill="#00E5FF" opacity=".55"/>
+<rect x="1274.0" y="343.8" width="10.0" height="44.4" fill="#00E5FF" opacity=".55"/>
+<rect x="1285.5" y="342.4" width="10.0" height="47.3" fill="#00E5FF" opacity=".55"/>
+<rect x="1297.0" y="332.6" width="10.0" height="66.9" fill="#00E5FF" opacity=".55"/>
+<rect x="1308.6" y="322.1" width="10.0" height="87.8" fill="#00E5FF" opacity=".55"/>
+<rect x="1320.1" y="321.2" width="10.0" height="89.7" fill="#00E5FF" opacity=".55"/>
+<rect x="1331.6" y="328.3" width="10.0" height="75.4" fill="#FF2E88" opacity=".55"/>
+<rect x="1343.1" y="333.1" width="10.0" height="65.8" fill="#00E5FF" opacity=".55"/>
+<rect x="1354.7" y="331.6" width="10.0" height="68.7" fill="#00E5FF" opacity=".55"/>
+<rect x="1366.2" y="331.6" width="10.0" height="68.8" fill="#00E5FF" opacity=".55"/>
+<rect x="1377.7" y="339.9" width="10.0" height="52.1" fill="#00E5FF" opacity=".55"/>
+<rect x="1389.2" y="351.2" width="10.0" height="29.6" fill="#00E5FF" opacity=".55"/>
+<rect x="1400.8" y="354.4" width="10.0" height="23.1" fill="#00E5FF" opacity=".55"/>
+<rect x="1412.3" y="348.6" width="10.0" height="34.8" fill="#00E5FF" opacity=".55"/>
+<rect x="1423.8" y="343.6" width="10.0" height="44.9" fill="#00E5FF" opacity=".55"/>
+<rect x="1435.3" y="345.7" width="10.0" height="40.5" fill="#00E5FF" opacity=".55"/>
+<rect x="1446.9" y="349.1" width="10.0" height="33.7" fill="#00E5FF" opacity=".55"/>
+<rect x="1458.4" y="345.3" width="10.0" height="41.4" fill="#00E5FF" opacity=".55"/>
+<rect x="1469.9" y="337.0" width="10.0" height="58.0" fill="#00E5FF" opacity=".55"/>
+<rect x="1481.4" y="335.2" width="10.0" height="61.6" fill="#00E5FF" opacity=".55"/>
+<rect x="1493.0" y="343.2" width="10.0" height="45.5" fill="#00E5FF" opacity=".55"/>
+<rect x="1504.5" y="352.2" width="10.0" height="27.5" fill="#00E5FF" opacity=".55"/>
+<line x1="1020.4761904761905" y1="310" x2="1020.4761904761905" y2="422" stroke="#FF2E88" stroke-width="2" stroke-opacity="0.95"/>
+<text x="548" y="442" font-size="14" fill="#FF2E88" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">00:41.20</text>
+<text x="1516" y="442" font-size="14" fill="#7E9AB5" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" text-anchor="end">03:12.00</text>
+<path d="M556 462 H1516 V528 L1508 536 H548 V470 Z" fill="#05080F" stroke="#B8FF3C" stroke-width="1" stroke-opacity="0.55"/>
+<text x="568" y="492" font-size="17" fill="#B8FF3C" font-weight="600" font-family="'PingFang SC','Microsoft YaHei',sans-serif">已写入同名 LRC</text>
+<text x="568" y="518" font-size="14" fill="#7E9AB5" font-weight="400" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">~/Music/折一只纸月亮.lrc</text>
+<text x="548" y="568" font-size="14" fill="#00E5FF" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="1">歌词时间轴 / TIMELINE · 4 行</text>
+<rect x="548" y="586" width="968" height="44" rx="0" fill="#0B1220" stroke="#4F6B87" stroke-width="1" stroke-opacity="0.14"/>
+<text x="564" y="616" font-size="15" fill="#7E9AB5" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">00:12.40</text>
+<text x="700" y="616" font-size="16" fill="#7E9AB5" font-weight="500" font-family="'PingFang SC','Microsoft YaHei',sans-serif">折一只纸月亮挂在窗前</text>
+<rect x="548" y="634" width="968" height="44" rx="0" fill="#05080F" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.6"/>
+<text x="564" y="664" font-size="15" fill="#FF2E88" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">00:18.96</text>
+<text x="700" y="664" font-size="16" fill="#EAF7FF" font-weight="500" font-family="'PingFang SC','Microsoft YaHei',sans-serif">风把旧信件吹成了帆</text>
+<rect x="548" y="682" width="968" height="44" rx="0" fill="#0B1220" stroke="#4F6B87" stroke-width="1" stroke-opacity="0.14"/>
+<text x="564" y="712" font-size="15" fill="#7E9AB5" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">00:25.31</text>
+<text x="700" y="712" font-size="16" fill="#7E9AB5" font-weight="500" font-family="'PingFang SC','Microsoft YaHei',sans-serif">你说远方有灯</text>
+<rect x="548" y="730" width="968" height="44" rx="0" fill="#0B1220" stroke="#4F6B87" stroke-width="1" stroke-opacity="0.14"/>
+<text x="564" y="760" font-size="15" fill="#7E9AB5" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">00:31.08</text>
+<text x="700" y="760" font-size="16" fill="#7E9AB5" font-weight="500" font-family="'PingFang SC','Microsoft YaHei',sans-serif">我们就往那边走</text>
+<line x1="548" y1="790" x2="1516" y2="790" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.18"/>
+<text x="548" y="838" font-size="15" fill="#00E5FF" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">导出 LRC</text>
+<text x="700" y="838" font-size="15" fill="#00E5FF" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">写回 ⌘S</text>
+<text x="852" y="838" font-size="15" fill="#00E5FF" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">导出 SRT</text>
+<text x="1516" y="838" font-size="15" fill="#7E9AB5" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" text-anchor="end">设置…</text>
+<text x="60" y="872" font-size="13" fill="#7E9AB5" font-weight="400" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">127.0.0.1:8898 · 4/4 模型就绪 · 音频不出本机</text>
 </svg>

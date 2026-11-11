@@ -1,65 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img">
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2029"/><stop offset="0.6" stop-color="#1a1a20"/><stop offset="1" stop-color="#252031"/></linearGradient>
-<radialGradient id="glow" cx="0.78" cy="0.32" r="0.55"><stop offset="0" stop-color="#91c8f0" stop-opacity="0.20"/><stop offset="1" stop-color="#91c8f0" stop-opacity="0"/></radialGradient>
-<pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.2" fill="#ffffff" fill-opacity="0.055"/></pattern>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0 H0 V32" fill="none" stroke="#00E5FF" stroke-opacity=".035"/></pattern>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" fill-opacity=".14"/></pattern>
+  <linearGradient id="tube" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4CE0FF"/><stop offset="1" stop-color="#FF2E88"/></linearGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#FF2E88"/></linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.2"/></filter>
 </defs>
-<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#bg)"/>
-<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#dots)"/>
-<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#glow)"/>
-<rect x="0" y="0" width="8" height="900" rx="0" fill="#91c8f0" opacity="0.8"/>
-<rect x="92" y="152" width="208" height="34" rx="17" fill="#ffffff12" stroke="#ffffff28" stroke-width="1"/>
-<text x="112" y="175" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" font-weight="600" fill="#91c8f0" text-anchor="start" letter-spacing="1">教程 01 · 快速上手</text>
-<text x="90" y="320" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="72" font-weight="700" fill="#e8e8ee" text-anchor="start" letter-spacing="-2">从第一篇笔记</text>
-<text x="90" y="408" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="72" font-weight="700" fill="#e8e8ee" text-anchor="start" letter-spacing="-2">开始。</text>
-<text x="92" y="474" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="24" font-weight="400" fill="#9a9aa8" text-anchor="start">安装、笔记库、Markdown 写作与每日笔记。</text>
-<text x="92" y="512" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="19" font-weight="400" fill="#85858f" text-anchor="start">跟着真实软件演示，一步一步完成设置。</text>
-<rect x="92" y="574" width="166" height="40" rx="20" fill="#ffffff0e" stroke="#ffffff22" stroke-width="1"/>
-<text x="107" y="600" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" font-weight="400" fill="#c9c9d4" text-anchor="start">5 分 12 秒</text>
-<rect x="270" y="574" width="81" height="40" rx="20" fill="#ffffff0e" stroke="#ffffff22" stroke-width="1"/>
-<text x="285" y="600" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" font-weight="400" fill="#c9c9d4" text-anchor="start">零基础</text>
-<rect x="363" y="574" width="98" height="40" rx="20" fill="#ffffff0e" stroke="#ffffff22" stroke-width="1"/>
-<text x="378" y="600" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" font-weight="400" fill="#c9c9d4" text-anchor="start">中文解说</text>
-<line x1="92" y1="720" x2="700" y2="720" stroke="#ffffff1f" stroke-width="1"/>
-<text x="92" y="780" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="17" font-weight="600" fill="#b9b9c6" text-anchor="start" letter-spacing="1.4">PRISMNOTE · 官方视频教程</text>
-<text x="92" y="812" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" font-weight="400" fill="#7f7f8c" text-anchor="start">中文解说与字幕 · 桌面版 2.4.1</text>
-<rect x="620" y="752" width="120" height="40" rx="20" fill="#91c8f0" opacity="0.16"/>
-<text x="680" y="779" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" font-weight="600" fill="#91c8f0" text-anchor="middle">05:12</text>
-<rect x="790" y="168" width="740" height="566" rx="14" fill="#1e1e24" stroke="#3d3d48" stroke-width="1.5"/>
-<rect x="790" y="168" width="740" height="34" rx="14" fill="#26262d"/>
-<rect x="790" y="188" width="740" height="14" rx="0" fill="#26262d"/>
-<circle cx="814" cy="185" r="5" fill="#d97b72" opacity="0.85"/>
-<circle cx="832" cy="185" r="5" fill="#d9b46a" opacity="0.85"/>
-<circle cx="850" cy="185" r="5" fill="#7bbf95" opacity="0.85"/>
-<text x="1160.0" y="190" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" font-weight="400" fill="#9a9aa8" text-anchor="middle">PrismNote · 笔记库</text>
-<rect x="804" y="202" width="162" height="518" rx="0" fill="#1a1a20"/>
-<line x1="966" y1="202" x2="966" y2="720" stroke="#34343e" stroke-width="1"/>
-<rect x="818" y="220" width="134" height="26" rx="6" fill="#2b2b34"/>
-<text x="828" y="238" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" font-weight="400" fill="#9a9aa8" text-anchor="start">搜索  ⌘K</text>
-<text x="826" y="274" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" font-weight="400" fill="#9a9aa8" text-anchor="start">每日笔记</text>
-<text x="826" y="308" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" font-weight="400" fill="#9a9aa8" text-anchor="start">项目 / 落地页</text>
-<rect x="810" y="323" width="152" height="28" rx="6" fill="#33405e"/>
-<rect x="810" y="323" width="3" height="28" rx="2" fill="#91c8f0"/>
-<text x="826" y="342" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" font-weight="600" fill="#e8e8ee" text-anchor="start">双向链接实践</text>
-<text x="826" y="376" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" font-weight="400" fill="#9a9aa8" text-anchor="start">阅读清单</text>
-<text x="826" y="410" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" font-weight="400" fill="#9a9aa8" text-anchor="start">灵感碎片</text>
-<text x="998" y="244" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="22" font-weight="700" fill="#e8e8ee" text-anchor="start">双向链接实践</text>
-<text x="998" y="268" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" font-weight="400" fill="#9a9aa8" text-anchor="start">更新于 11 月 5 日 · 1,284 字</text>
-<line x1="998" y1="284" x2="1502" y2="284" stroke="#33333d" stroke-width="1"/>
-<rect x="998" y="308" width="400" height="8" rx="4" fill="#393943"/>
-<rect x="998" y="334" width="372" height="8" rx="4" fill="#393943"/>
-<rect x="998" y="360" width="418" height="8" rx="4" fill="#393943"/>
-<rect x="998" y="386" width="330" height="8" rx="4" fill="#393943"/>
-<rect x="998" y="412" width="390" height="8" rx="4" fill="#393943"/>
-<rect x="998" y="450" width="116" height="22" rx="6" fill="#33405e"/>
-<text x="1008" y="465" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" font-weight="400" fill="#91c8f0" text-anchor="start">[[知识图谱]]</text>
-<rect x="998" y="488" width="356" height="8" rx="4" fill="#393943"/>
-<rect x="998" y="540" width="172" height="24" rx="6" fill="#2f2f39"/>
-<text x="1010" y="556" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" font-weight="400" fill="#9a9aa8" text-anchor="start"># 本地优先</text>
-<rect x="1182" y="540" width="120" height="24" rx="6" fill="#2f2f39"/>
-<text x="1194" y="556" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" font-weight="400" fill="#9a9aa8" text-anchor="start"># 双链</text>
-<line x1="998" y1="592" x2="1502" y2="592" stroke="#33333d" stroke-width="1"/>
-<rect x="998" y="612" width="360" height="8" rx="4" fill="#393943"/>
-<rect x="998" y="634" width="300" height="8" rx="4" fill="#393943"/>
-<text x="1560" y="828" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" font-weight="400" fill="#7f7f8c" text-anchor="end">01 / 03</text>
+<rect width="1600" height="900" fill="#05080F"/>
+<rect width="1600" height="900" fill="url(#grid)"/>
+<rect width="1600" height="900" fill="url(#scan)"/>
+<path d="M58 48 H1552 V842 L1542 852 H48 V58 Z" fill="#0B1220" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.18"/>
+<text x="100" y="128" font-size="18" fill="#00E5FF" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="2">TUTORIAL 01  //  快速上手</text>
+<line x1="100" y1="156" x2="1500" y2="156" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.22"/>
+<text x="100" y="300" font-size="62" fill="#EAF7FF" font-weight="700" font-family="'PingFang SC','Microsoft YaHei',sans-serif">拖入一首歌，</text>
+<text x="100" y="382" font-size="62" fill="#00E5FF" font-weight="700" font-family="'PingFang SC','Microsoft YaHei',sans-serif">歌词自动就位。</text>
+<text x="100" y="462" font-size="22" fill="#7E9AB5" font-weight="400" font-family="'PingFang SC','Microsoft YaHei',sans-serif">安装、批量队列、四引擎选择与同名 LRC 落盘。</text>
+<path d="M107 520 H193 V551 L186 558 H100 V527 Z" fill="#111C2F" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.55"/>
+<text x="114" y="545" font-size="14" fill="#00E5FF" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">05:12</text>
+<path d="M214 520 H261 V551 L254 558 H207 V527 Z" fill="#111C2F" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.55"/>
+<text x="221" y="545" font-size="14" fill="#00E5FF" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">拖放</text>
+<path d="M282 520 H342 V551 L335 558 H275 V527 Z" fill="#111C2F" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.55"/>
+<text x="289" y="545" font-size="14" fill="#00E5FF" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">四引擎</text>
+<line x1="100" y1="742" x2="1500" y2="742" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.18"/>
+<text x="100" y="800" font-size="18" fill="#7E9AB5" font-weight="500" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="1">XINMX.COM  //  AT歌词识别</text>
+<text x="1500" y="800" font-size="22" fill="#00E5FF" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" text-anchor="end">05:12</text>
+<path d="M990 210 H1500 V620 L1490 630 H980 V220 Z" fill="#111C2F" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.3"/>
+<text x="1010" y="258" font-size="15" fill="#00E5FF" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">WAVEFORM / 声纹</text>
+<rect x="1010.0" y="314.0" width="7.3" height="202.0" fill="#FF2E88" opacity=".55"/>
+<rect x="1018.8" y="312.7" width="7.3" height="204.7" fill="#00E5FF" opacity=".55"/>
+<rect x="1027.7" y="325.6" width="7.3" height="178.7" fill="#00E5FF" opacity=".55"/>
+<rect x="1036.5" y="328.1" width="7.3" height="173.9" fill="#00E5FF" opacity=".55"/>
+<rect x="1045.4" y="318.3" width="7.3" height="193.4" fill="#00E5FF" opacity=".55"/>
+<rect x="1054.2" y="319.5" width="7.3" height="191.0" fill="#00E5FF" opacity=".55"/>
+<rect x="1063.1" y="343.2" width="7.3" height="143.6" fill="#00E5FF" opacity=".55"/>
+<rect x="1071.9" y="369.2" width="7.3" height="91.5" fill="#00E5FF" opacity=".55"/>
+<rect x="1080.8" y="372.6" width="7.3" height="84.7" fill="#00E5FF" opacity=".55"/>
+<rect x="1089.6" y="358.1" width="7.3" height="113.8" fill="#00E5FF" opacity=".55"/>
+<rect x="1098.5" y="351.5" width="7.3" height="127.1" fill="#00E5FF" opacity=".55"/>
+<rect x="1107.3" y="361.2" width="7.3" height="107.7" fill="#00E5FF" opacity=".55"/>
+<rect x="1116.2" y="366.9" width="7.3" height="96.3" fill="#00E5FF" opacity=".55"/>
+<rect x="1125.0" y="351.9" width="7.3" height="126.2" fill="#00E5FF" opacity=".55"/>
+<rect x="1133.8" y="330.9" width="7.3" height="168.2" fill="#00E5FF" opacity=".55"/>
+<rect x="1142.7" y="330.6" width="7.3" height="168.8" fill="#00E5FF" opacity=".55"/>
+<rect x="1151.5" y="352.5" width="7.3" height="125.1" fill="#00E5FF" opacity=".55"/>
+<rect x="1160.4" y="371.0" width="7.3" height="88.0" fill="#FF2E88" opacity=".55"/>
+<rect x="1169.2" y="371.3" width="7.3" height="87.4" fill="#00E5FF" opacity=".55"/>
+<rect x="1178.1" y="369.1" width="7.3" height="91.9" fill="#00E5FF" opacity=".55"/>
+<rect x="1186.9" y="384.6" width="7.3" height="60.8" fill="#00E5FF" opacity=".55"/>
+<rect x="1195.8" y="409.4" width="7.3" height="11.2" fill="#00E5FF" opacity=".55"/>
+<rect x="1204.6" y="413.0" width="7.3" height="4.0" fill="#00E5FF" opacity=".55"/>
+<rect x="1213.5" y="396.9" width="7.3" height="36.2" fill="#00E5FF" opacity=".95"/>
+<rect x="1222.3" y="374.9" width="7.3" height="80.1" fill="#00E5FF" opacity=".95"/>
+<rect x="1231.2" y="370.5" width="7.3" height="88.9" fill="#00E5FF" opacity=".95"/>
+<rect x="1240.0" y="373.4" width="7.3" height="83.2" fill="#00E5FF" opacity=".55"/>
+<rect x="1248.8" y="360.9" width="7.3" height="108.2" fill="#00E5FF" opacity=".55"/>
+<rect x="1257.7" y="334.7" width="7.3" height="160.6" fill="#00E5FF" opacity=".55"/>
+<rect x="1266.5" y="321.3" width="7.3" height="187.4" fill="#00E5FF" opacity=".55"/>
+<rect x="1275.4" y="334.1" width="7.3" height="161.8" fill="#00E5FF" opacity=".55"/>
+<rect x="1284.2" y="354.1" width="7.3" height="121.9" fill="#00E5FF" opacity=".55"/>
+<rect x="1293.1" y="356.8" width="7.3" height="116.3" fill="#00E5FF" opacity=".55"/>
+<rect x="1301.9" y="346.7" width="7.3" height="136.6" fill="#00E5FF" opacity=".55"/>
+<rect x="1310.8" y="347.4" width="7.3" height="135.2" fill="#FF2E88" opacity=".55"/>
+<rect x="1319.6" y="364.2" width="7.3" height="101.6" fill="#00E5FF" opacity=".55"/>
+<rect x="1328.5" y="373.8" width="7.3" height="82.4" fill="#00E5FF" opacity=".55"/>
+<rect x="1337.3" y="358.1" width="7.3" height="113.7" fill="#00E5FF" opacity=".55"/>
+<rect x="1346.2" y="331.4" width="7.3" height="167.1" fill="#00E5FF" opacity=".55"/>
+<rect x="1355.0" y="320.9" width="7.3" height="188.1" fill="#00E5FF" opacity=".55"/>
+<rect x="1363.8" y="329.0" width="7.3" height="171.9" fill="#00E5FF" opacity=".55"/>
+<rect x="1372.7" y="332.8" width="7.3" height="164.3" fill="#00E5FF" opacity=".55"/>
+<rect x="1381.5" y="320.8" width="7.3" height="188.4" fill="#00E5FF" opacity=".55"/>
+<rect x="1390.4" y="311.7" width="7.3" height="206.6" fill="#00E5FF" opacity=".55"/>
+<rect x="1399.2" y="327.4" width="7.3" height="175.3" fill="#00E5FF" opacity=".55"/>
+<rect x="1408.1" y="359.2" width="7.3" height="111.6" fill="#00E5FF" opacity=".55"/>
+<rect x="1416.9" y="378.8" width="7.3" height="72.4" fill="#00E5FF" opacity=".55"/>
+<rect x="1425.8" y="377.1" width="7.3" height="75.8" fill="#00E5FF" opacity=".55"/>
+<rect x="1434.6" y="374.4" width="7.3" height="81.2" fill="#00E5FF" opacity=".55"/>
+<rect x="1443.5" y="387.7" width="7.3" height="54.7" fill="#00E5FF" opacity=".55"/>
+<rect x="1452.3" y="403.3" width="7.3" height="23.3" fill="#00E5FF" opacity=".55"/>
+<rect x="1461.2" y="397.2" width="7.3" height="35.5" fill="#FF2E88" opacity=".55"/>
+<line x1="1222.3076923076924" y1="290" x2="1222.3076923076924" y2="540" stroke="#FF2E88" stroke-width="2" stroke-opacity="0.95"/>
+<line x1="1010" y1="570" x2="1470" y2="570" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.3"/>
+<text x="1010" y="606" font-size="14" fill="#7E9AB5" font-weight="500" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">00:00</text>
+<text x="1470" y="606" font-size="14" fill="#7E9AB5" font-weight="500" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" text-anchor="end">05:12</text>
 </svg>
